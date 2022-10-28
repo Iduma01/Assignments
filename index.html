@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 400px; 
-
- 
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  background-color: hsl(0, 0%, 95%)
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>3-Column card</title>
 </head>
+
 <body>
 
-<h2>Three Equal Columns</h2>
+  <div class="container">
 
-<div class="row">
-  <div class="column" style="background-color:hsl(31, 77%, 52%);">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:hsl(184, 100%, 22%);">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:hsl(179, 100%, 13%);">
-    <h2>Column 3</h2>
-    <p>Some text..</p>
-  </div>
-</div>
+    <div class="card">
+      <div class="card-1  card__sub">
+        <div>
+          <img src="c:\Users\HP\Downloads\icomoon\icon-sedans.svg">
+          <h2 class="heading-2 mb-md">SEDANS</h2>
+          <div>
+            <p class="card__text">Choose a Sedan for it affordability and excellent fuel economy. Ideal for crusing in
+              the city or on your next road trip.</p>
+          </div>
+        </div>
+        <button class="btn btn-1">Learn More</button>
+      </div>
 
+      <div class="card-2 card__sub">
+        <div>
+          <img src="c:\Users\HP\Downloads\icomoon\icon-suvs.svg">
+          <h2 class="heading-2 mb-md">SUVS</h2>
+          <div>
+            <p class="card__text">Take an SUV for it spacious interior,power and versatility. Perfect for your next
+              family vacation and off-road adventures.</p>
+          </div>
+        </div>
+        <button class="btn btn-2">Learn More</button>
+      </div>
+
+      <div class="card-3 card__sub">
+        <div>
+          <img src="C:\Users\HP\Pictures\SVG\image\Copy-of-icon-luxury.svg">
+          <h2 class="heading-2 mb-md">LUXURY</h2>
+          <div>
+            <p class="card__text">Choose a Sedan for it affordability and excellent fuel economy. Ideal for crusing in
+              the city or on your next road trip.</p>
+          </div>
+        </div>
+        <button class="btn btn-3">Learn More</button>
+      </div>
+    </div>
+    <a href="grid.html" target="_blank"><button class="btn btn-grid">Go to grid</button></a>
+  </div>
 </body>
+
 </html>
